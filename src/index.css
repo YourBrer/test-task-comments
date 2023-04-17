@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: LatoRegular, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    background: #101F25 url("./assets/Frame 4635.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: local('LatoRegular'),
+    url('./assets/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
